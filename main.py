@@ -52,7 +52,6 @@ name = "Nilüfer"
 age= 28
 company = "Etiya Akademi"
 
-#! Halit 23 yaşında Kodlamaio'da çalışıyor
 #print(name + " " + age + " yaşında " + company + "'de çalışıyor")
 print(f"{name} {age} yaşında {company}'de çalışıyor")
 #!
