@@ -1,11 +1,11 @@
 print("merhaba Etiya")
 
 #! string = metinsel ifade
-text = "10"
+text = "15"
 print(text)
 
 #! integer = tam sayı
-number = 10
+number = 45
 print(number)
 
 #! double,float,decimal = ondalıklı sayı
@@ -48,12 +48,12 @@ print(text.lower())
 print(text.startswith("Mer"))
 print(text.endswith("Etiya"))
 
-name = "Halit"
-age= 23
-company = "Kodlamaio"
+name = "Nilüfer"
+age= 28
+company = "Etiya Akademi"
 
 #! Halit 23 yaşında Kodlamaio'da çalışıyor
 #print(name + " " + age + " yaşında " + company + "'de çalışıyor")
 print(f"{name} {age} yaşında {company}'de çalışıyor")
 #!
-print("Merhaba github")
+print("ilk gün ödevi")
