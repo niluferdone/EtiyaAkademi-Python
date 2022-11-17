@@ -11,7 +11,7 @@
 vize = input("Vize:")
 final = input("Final:")
  
-sonuc = int(vize)*(0.4) + int(final)*(0.6)
+sonuc = float(vize)*(0.4) + float(final)*(0.6)
 if sonuc>=80 and sonuc<100:
     print("Harf Notu: AA")
 elif sonuc>=70 and sonuc<80:
