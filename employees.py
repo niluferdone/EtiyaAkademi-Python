@@ -7,21 +7,17 @@
 #programın sonunda bu dosyadan bilgileri satır satır okuyup listeleyecek kod yazılacak 
 
 
-employees = open("employees.txt", "a")
+employees = open("employees.txt", "a+")
 try:
    employeesCount = int(input("çalışan sayısı giriniz: "))
    for i in range(employeesCount):
-        employeesInfo = input("çalışan adı-soyadı giriniz:")
-        employeesSalary = float(input("çalışan maaş bilgisini giriniz:"))
-        employees.write(f"{employeesInfo}, {employeesSalary} \n")
+        employeesName =input(f"{i+1}. çalışanın adını giriniz: ")
+        employeesLastName =input(f"{i+1}. çalışanın soyadını giriniz: ")
+        employeesSalary = float(input(f"{i+1}. çalışanın maaş bilgisini giriniz:"))
+        employees.write(f"{employeesName} {employeesLastName} - {employeesSalary} \n")
 except ValueError:
     print("Ad-Soyad bilgisinde rakam olamaz")
     print("Maaş bilgisinde string ifade olamaz")
-finally:
-    print(f"{employeesInfo}  {employeesSalary}")
+employees.seek(0)
+print(employees.read())
 employees.close()
-
-employees = open("employees.txt","r")
-lines = employees.readlines() 
-for line in lines:
-    print(line)
