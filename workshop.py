@@ -1,5 +1,6 @@
 #kullanıcıdan vize ve final notları alınacak
 #kullanıcıdan alınan vize ve final notları listelenecek
+#kullanıcı kaç dersten geçip kaç dersten kaldığına görebilmeli
 
 lessonCount = 0
 while lessonCount <=0 or lessonCount > 10:
