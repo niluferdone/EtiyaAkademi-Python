@@ -1,3 +1,6 @@
+#kullanıcıdan vize ve final notları alınacak
+#kullanıcıdan alınan vize ve final notları listelenecek
+
 lessonCount = 0
 while lessonCount <=0 or lessonCount > 10:
     lessonCount = int(input("kaç derse ait not gireceksiniz? "))
