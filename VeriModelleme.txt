@@ -1,0 +1,104 @@
+Veri modelleme nedir?
+Veri modelleme, herhangi bir kuruluşun bilgi toplama ve yönetim sistemlerini tanımlayan görsel bir sunum veya ayrıntılı plan oluşturma sürecidir. Bu ayrıntılı plan veya veri modeli; veri analistleri, bilim insanları ve mühendisler gibi farklı paydaşların kuruluşun verilerine ilişkin birleştirilmiş bir görünüm oluşturmasına yardımcı olur. Bu model; işletmelerin hangi verileri topladığını, farklı veri kümeleri arasındaki ilişkiyi, ayrıca verileri depolamak ve analiz etmek için kullanılacak yöntemleri özetler.
+
+Veri modelleme neden önemlidir?
+Günümüzde kuruluşlar, pek çok farklı kaynaktan büyük miktarda veri toplar. Ancak ham veriler yeterli değildir. İş konusunda kârlı kararlar vermenizde size rehberlik edebilecek eyleme geçirilebilir öngörüler için verileri analiz etmeniz gerekir. Doğru bir veri analizi için verilerin verimli şekilde toplanması, depolanması ve işlenmesi gerekir. Çeşitli veritabanı teknolojileri ve veri işleme araçları vardır ve farklı veri kümeleri, verimli bir analiz için farklı araçlar gerektirir.
+
+Veri modelleme, size verilerinizi anlama ve bu verileri depolamak ve yönetmek için doğru teknoloji seçimlerini yapma şansı verir. Bir mimarın bir evi inşa etmeden önce ayrıntılı bir plan tasarladığı gibi, iş paydaşları da kuruluşları için veritabanı çözümleri geliştirmeden önce bir veri modeli tasarlar.
+
+Veri modelleme şu avantajları sunar:
+
+Veritabanı yazılım geliştirmedeki hataları azaltır.
+Veritabanı tasarımı ve oluşturma konusunda hız ve verimlilik sağlar.
+Kuruluş genelinde veri belgeleme ve sistem tasarımı konusunda tutarlılık oluşturur.
+Veri mühendisleri ile iş zekası ekipleri arasındaki iletişimi kolaylaştırır.
+
+Veri modeli türleri nelerdir?
+Veri modelleme işe genellikle verileri kavramsal olarak sunarak ve ardından seçilen teknolojiler bağlamında tekrar sunarak başlar. Analistler ve paydaşlar, veri tasarımı aşamasında birkaç farklı türde veri modeli oluşturur. Veri modellerinin üç ana türü şunlardır:
+
+Kavramsal veri modeli
+Kavramsal veri modelleri, verilere ilişkin büyük bir resim sunar. Bu modeller şunları açıklar:
+
+Sistemin hangi verileri içerdiği
+Veri öznitelikleri ve koşulları veya veriler üzerindeki kısıtlamalar
+Verinin ilişkili olduğu iş kuralları
+Verilerin nasıl en iyi şekilde organize edildiği
+Güvenlik ve veri bütünlüğü gereksinimleri
+Kavramsal modeli genellikle iş paydaşları ve analistler oluşturur. Bu, resmi veri modelleme kurallarına uymayan diyagram şeklinde basit bir sunumdur. Önemli olan, hem teknik hem de teknik olmayan paydaşların ortak bir vizyonu paylaşmalarına ve veri projelerinin amacı, kapsamı ve tasarımı üzerinde uzlaşmalarına yardımcı olmasıdır.
+
+Kavramsal veri modeli örneği
+Örneğin, bir otomobil bayisine ilişkin kavramsal veri modeli, veri varlıklarını şu şekilde gösterebilir:
+
+Bayinin sahip olduğu farklı satış noktaları hakkındaki bilgileri temsil eden bir Araç Galerisi varlığı
+Bayinin halihazırda stokta bulundurduğu çeşitli araçları temsil eden bir Araç varlığı
+Bayiden alışveriş yapmış olan tüm müşterileri temsil eden bir Müşteri varlığı
+Fiili satışla ilgili bilgileri temsil eden bir Satış varlığı
+Bayi için çalışan tüm satış görevlileri hakkındaki bilgileri temsil eden bir Satış Görevlisi varlığı
+Bu kavramsal model, aşağıdaki gibi iş gereksinimlerini de içerir:
+
+Her araç belirli bir araç galerisine ait olmalıdır.
+Her satışla ilişkili en az bir satış görevlisi ve bir müşteri olmalıdır.
+Her aracın bir marka adı ve ürün numarası olmalıdır.
+Her müşteri, telefon numarasını ve e-posta adresini vermelidir.
+Dolayısıyla, kavramsal modeller, iş kuralları ile temelde yer alan fiziksel veritabanı yönetim sistemi (DBMS) arasında bir köprü işlevi görür. Kavramsal veri modellerine, etki alanı modelleri de denir.
+
+Mantıksal veri modeli
+Mantıksal veri modelleri, kavramsal veri sınıflarını teknik veri yapılarıyla eşleştirir. Bu modeller, kavramsal veri modelinde tanımlanan veri kavramları ve karmaşık veri ilişkileri hakkında daha fazla ayrıntı verir. Örneğin:
+
+Çeşitli özniteliklerin veri türleri (ör. dize veya sayı)
+Veri varlıkları arasındaki ilişkiler
+Verilerdeki başlıca öznitelikler veya temel alanlar
+Veri mimarları ve analistleri, mantıksal modeli oluşturmak için birlikte çalışır. Temsili oluşturmak için birkaç resmi veri modelleme sisteminden birini takip ederler. Kimi zaman, çevik ekipler bu adımı atlamayı ve kavramsal modelden doğrudan fiziksel modele geçmeyi seçer. Bununla birlikte, bu modeller veri ambarları adı verilen geniş veritabanlarını ve otomatik raporlama sistemlerini tasarlama konusunda faydalıdır.
+
+Mantıksal veri modeli örneği
+Otomobil bayisi örneğimizde, mantıksal veri modeli, kavramsal modeli genişletecek ve aşağıdaki gibi veri sınıflarını daha derinlemesine inceleyecektir:
+
+Araç Galerileri varlığı, metin verileri olarak ad ve konum, sayısal veriler olarak bir telefon numarası gibi alanlara sahiptir.
+Müşteriler varlığı, xxx@ornek.com veya xxx@ornek.com.yy formatında bir e-posta adresi alanına sahiptir. Alan adı 100 karakterden uzun olamaz.
+Satış varlığı, tarih veri türü olarak satış tarihi ve ondalık veri türü olarak tutar ile birlikte alanlarda bir müşterinin adını ve bir satış görevlisinin adını içerir.
+Dolayısıyla, mantıksal modeller, kavramsal veri modeli ile geliştiricilerin veritabanını oluşturmak için kullandığı temel teknoloji ve veritabanı dili arasında bir köprü işlevi görür. Bununla birlikte, bu modeller teknolojiden bağımsızdır ve bunları herhangi bir veritabanı dilinde uygulayabilirsiniz. Veri mühendisleri ve paydaşlar, teknoloji kararlarını genellikle mantıksal bir veri modeli oluşturduktan sonra alır.
+
+Fiziksel veri modeli
+Fiziksel veri modelleri, mantıksal veri modellerini belirli bir DBMS teknolojisiyle eşleştirir ve yazılımın terminolojisini kullanır. Örneğin, şunlarla ilgili ayrıntılar verir:
+
+DBMS'de temsil edilen veri alanı türleri
+DBMS'de temsil edilen veri ilişkileri
+Performans ayarı gibi ek ayrıntılar
+Veri mühendisleri, fiziksel modeli nihai tasarım uygulamasından önce oluşturur. Ayrıca, tasarımın tüm yönlerini kapsadıklarından emin olmak için resmi veri modelleme tekniklerini de takip ederler.
+
+Fiziksel veri modeli örneği
+Otomobil bayisinin, Amazon S3 Glacier Esnek Veri Alma'da bir veri arşivi oluşturmaya karar verdiğini varsayalım. Bayinin fiziksel veri modeli şu teknik özellikleri açıklar:
+
+Satış özelliğinde satış tutarı, kayan veri türüdür ve satış tarihi bir zaman damgası veri türüdür.
+Müşteriler özelliğinde, müşteri adı bir dize veri türüdür.
+S3 Glacier Esnek Veri Alma terminolojisinde kasa, verilerinizin coğrafi konumudur. 
+Fiziksel veri modeliniz, kasanızı hangi AWS Bölgesinde oluşturacağınız gibi ek ayrıntıları da içerir. Dolayısıyla, fiziksel veri modeli, mantıksal veri modeli ile nihai teknoloji uygulaması arasında bir köprü işlevi görür.
+
+
+---
+Primary Key:
+
+SQL içerisinde kullanılan primary key veya birincil anahtar SQL Unique kısıtlamasına benzerdir.
+Unique kısıtlamasından farkı değer olarak NULL içermemesi ve her tabloya sadece bir tane eklenebilmesidir.
+
+Özetle; Primary key kullanım amacı her bir satırın farklı olmasını garantilemektir.
+
+Unique Key (tekil anahtar): 
+    Yer aldığı tablo içerisinde bir değeri sadece bir kere alır. 
+İlgili değerin tekrar atanmasına izin verilmez. İşlevi Primary Key (birincil anahtar) ile benzerlik taşısa da, en önemli farklılık Unique Key’in NULL değeri alabilir oluşudur.
+
+Foreign key:
+SQL içerinde SQL Primary Key veya SQL Unique ile birlikte iki tabloyu ilişkilendirmek için kullanılan bir kısıtlamadır.
+Veri tabanı tasarımı sırasında tablolar çeşitli parçalara ayrılarak veri tekrarının önüne geçilir.
+Özetle; Foreign key kısıtlamasının kullanım amacı veri bütünlüğünü sağlamaktır.
+
+
+----
+
+Entity Relationship Diagram (ERD)’yi, Varlık İlişki Diyagramı olarak çevirebiliriz. Varlık ilişki diyagramı, veritabanında bulunan tabloların birbirleri ile ilişkilerini gösterir.
+ER diyagramını, varlık kümeleri arasındaki ilişkiyi göstermek için kullanırız. Bir varlık grubu, benzer varlıklardan oluşan bir gruptur ve bu varlıklar belirli özniteliklere sahip olabilir. DBMS (Veri Tabanı Yönetim Sistemi) açısından bir varlık, veri tabanındaki bir tablonun bir tablosu veya özniteliğidir, dolayısıyla tablolar ve öznitelikleri arasındaki ilişkiyi göstererek ER diyagramı, veri tabanının tam mantıksal yapısını gösterir. 
+
+
+----
+
+
