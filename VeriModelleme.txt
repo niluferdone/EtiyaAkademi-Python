@@ -100,5 +100,9 @@ ER diyagramını, varlık kümeleri arasındaki ilişkiyi göstermek için kulla
 
 
 ----
+One-to-Many, bir müşteri birden fazla ürün alabilir.
 
+Many-to-Many, bir müşteri birden fazla ürün alabilir ve bir ürün birçok müşteri tarafından alınabilir.
+
+One-to-one, bir müşteriye sadece bir açılmış hesap vardır ve o hesap sadece o müşteriye aittir
 
