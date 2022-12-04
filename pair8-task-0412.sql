@@ -55,6 +55,11 @@ insert into order_details(order_number,quantity,product_id,order_id,order_total_
 
 
 --6) İndirim halindeki ürünlerin indirim uygulanmış fiyatlarıyla listelenmesini sağlayınız.
+
+--öncelikle products tablosuna discount kolonu eklendi.
+--alter table products add discount_price numeric generated always as (unit_price - (unit_price * discount/100)) stored
+--discount_price computed column şeklinde oluşturuldu.
+
  
  select name as "Ürün Adı", unit_price as "Ürün Fiyatı", discount as "İndirim Oranı", discount_price as "İndirimli Fiyat" from products 
  group by name, discount, discount_price, unit_price
