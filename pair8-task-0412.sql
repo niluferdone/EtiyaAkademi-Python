@@ -63,10 +63,6 @@ insert into order_details(order_number,quantity,product_id,order_id,order_total_
 
 --7) Kullanıcı bir ürünü review ettiğinde (puanladığında) oluşacak insert komutunu geliştiriniz.
 
---1.yöntem
-insert into products(name, unit_price, stock, category_id,rating) values('saat', '850', '100', 2, 6.8) 
-
---2.yöntem
 insert into products(name,unit_price,stock,category_id,rating) values ('beyaz elbise','600',60,1,'6');
 
 select AVG(rating) as "Ürün Puanı" from products
