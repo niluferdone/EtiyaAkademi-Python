@@ -1,9 +1,9 @@
-from datetime import date
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from datetime import date
 
 driver = webdriver.Chrome()
 driver.get("https://www.kodlama.io/")
